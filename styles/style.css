@@ -70,13 +70,26 @@ nav {
 /* Responsive for Mobile Device */
 @media screen and (max-width: 600px) {
 
+    .container {
+        width: 92%;
+    }
+
+    nav {
+        padding: 20px 0;
+    }
+
     /* nav style */
+    .company-title {
+        font-size: 24px;
+    }
+
     .nav-items {
         display: none;
     }
 
     .toggle-bar {
         display: block;
+        font-size: 24px;
     }
 
 }
