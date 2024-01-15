@@ -81,7 +81,6 @@ nav {
     background-repeat: no-repeat;
     height: 500px;
     border-radius: 16px;
-
     padding: 106px 0;
 }
 
@@ -116,7 +115,6 @@ nav {
 .location-search div {
     position: relative;
 }
-
 
 .location-search input {
     padding: 16px;
@@ -160,6 +158,27 @@ nav {
     .toggle-bar {
         display: block;
         font-size: 24px;
+    }
+
+    /* banner style */
+    .banner {
+        background-size: cover;
+        padding: 32px 0;
+    }
+
+    .location-search {
+        flex-direction: column;
+        width: calc(100% - 48px);
+
+    }
+
+    .banner-title {
+        font-size: 24px;
+    }
+
+    .banner-description {
+        color: #ffffff;
+        margin-bottom: 32px;
     }
 
 }
