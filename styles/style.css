@@ -12,3 +12,71 @@
 body {
     font-family: 'Mulish', sans-serif;
 }
+
+.container {
+    max-width: 1440px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.primary-text {
+    color: #131318;
+}
+
+.secondary-text {
+    color: #5A5A5D;
+}
+
+.btn-primary {}
+
+/* nav section style  */
+nav {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-heading {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.company-title {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-items {
+    display: flex;
+    gap: 44px;
+}
+
+.nav-items li {
+    list-style: none;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.toggle-bar {
+    display: none;
+}
+
+/* Responsive for Mobile Device */
+@media screen and (max-width: 600px) {
+
+    /* nav style */
+    .nav-items {
+        display: none;
+    }
+
+    .toggle-bar {
+        display: block;
+    }
+
+}
