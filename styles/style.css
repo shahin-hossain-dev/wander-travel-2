@@ -492,6 +492,12 @@ nav {
         width: 100%;
     }
 
+    /* choose style */
+    .choose-container,
+    .destination-container {
+        margin-top: 50px;
+    }
+
     /* popular tour section style */
     .popular-tour-container,
     .news-letter-container {
@@ -500,7 +506,9 @@ nav {
     }
 
     /* destination section style */
-    .destination-title {
+    .destination-title,
+    .popular-tour-title,
+    .choose-title {
         font-size: 30px;
     }
 
@@ -577,6 +585,12 @@ nav {
         height: 400px;
         object-fit: cover;
         border-radius: 16px;
+    }
+
+    /* footer */
+    .footer-rule {
+        margin: 20px 5%;
+
     }
 
 }
