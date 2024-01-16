@@ -402,7 +402,7 @@ nav {
     background-color: #ffffffdd;
     padding: 40px;
     border-radius: 16px;
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .deal-card-info {
@@ -411,6 +411,7 @@ nav {
 
 .deal-card-info span {
     margin-right: 16px;
+    display: inline-block;
 }
 
 .deal-card-info i {
@@ -434,6 +435,11 @@ nav {
     font-weight: 800;
     color: #FF5400;
     margin-bottom: 24px;
+}
+
+.see-all-btn {
+    display: block;
+    margin: 0 auto;
 }
 
 /*------------------------------
@@ -691,7 +697,8 @@ nav {
     /* choose style */
     .choose-container,
     .destination-container,
-    .review-container {
+    .review-container,
+    .deal-container {
         margin-top: 50px;
     }
 
@@ -708,7 +715,8 @@ nav {
     .popular-tour-title,
     .choose-title,
     .review-title,
-    .perfect-place-title {
+    .perfect-place-title,
+    .deal-title {
         font-size: 30px;
     }
 
@@ -770,9 +778,12 @@ nav {
     .deal-2,
     .deal-3 {
         background-size: cover;
-
+        justify-content: center;
     }
 
+    .see-all-btn {
+        display: none;
+    }
 
 
     /* review */
