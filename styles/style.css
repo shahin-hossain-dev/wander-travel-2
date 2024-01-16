@@ -340,6 +340,68 @@ nav {
     background-color: rgba(233, 68, 68, 0.05);
 }
 
+/* -----------------
+    Review Section style
+-----------------------*/
+.review-container {
+    margin-top: 100px;
+}
+
+.review-title {
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.review-description {
+    text-align: center;
+    margin: 0 10%;
+}
+
+.review-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.review-card {
+    display: flex;
+    gap: 24px;
+    padding: 16px;
+    border: 1px solid #5a5a5d45;
+    border-radius: 16px;
+    flex-basis: 500px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.103);
+}
+
+.review-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.review-card-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.review-card-title p {
+    font-size: 16px;
+}
+
+.traveler-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.review-rating i {
+    color: #131318;
+}
+
 /* ------------------------
     Newsletter section style
 ----------------------------*/
@@ -494,7 +556,8 @@ nav {
 
     /* choose style */
     .choose-container,
-    .destination-container {
+    .destination-container,
+    .review-container {
         margin-top: 50px;
     }
 
@@ -508,7 +571,8 @@ nav {
     /* destination section style */
     .destination-title,
     .popular-tour-title,
-    .choose-title {
+    .choose-title,
+    .review-title {
         font-size: 30px;
     }
 
@@ -563,6 +627,11 @@ nav {
         height: 335px;
         object-fit: cover;
         border-radius: 16px;
+    }
+
+    /* review */
+    .review-card {
+        flex-direction: column;
     }
 
     /* newsletter style */
