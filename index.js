@@ -25,6 +25,9 @@ const toggle = () => {
             if (value > 600) {
                 navBar.style.display = 'flex'
             }
+            else {
+                navBar.style.display = 'none';
+            }
         })
     }
 
