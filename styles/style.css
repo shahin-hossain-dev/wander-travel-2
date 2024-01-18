@@ -677,6 +677,11 @@ nav {
 
     .nav-items {
         display: none;
+        position: absolute;
+        right: 0;
+        top: 70px;
+        background-color: #ffffff;
+        padding: 10px;
     }
 
     .toggle-bar {
