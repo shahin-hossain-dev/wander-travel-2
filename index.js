@@ -13,7 +13,7 @@ const toggle = () => {
             event.preventDefault();
             const value = event.target.innerWidth;
             if (value > 600) {
-                nav.navBar.display = 'flex'
+                navBar.style.display = 'flex'
             }
         })
     }
@@ -23,7 +23,7 @@ const toggle = () => {
             event.preventDefault();
             const value = event.target.innerWidth;
             if (value > 600) {
-                nav.navBar.display = 'flex'
+                navBar.style.display = 'flex'
             }
         })
     }
