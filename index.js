@@ -10,7 +10,7 @@ const toggle = () => {
     if (display === 'none') {
         navBar.style.display = 'block';
         window.addEventListener('resize', event => {
-            event.preventDefault();
+            // event.preventDefault();
             const value = event.target.innerWidth;
             if (value > 600) {
                 navBar.style.display = 'flex'
@@ -20,7 +20,7 @@ const toggle = () => {
     else {
         navBar.style.display = 'none';
         window.addEventListener('resize', event => {
-            event.preventDefault();
+            // event.preventDefault();
             const value = event.target.innerWidth;
             if (value > 600) {
                 navBar.style.display = 'flex'
